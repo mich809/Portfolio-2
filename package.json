@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-2",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "build" : "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mich809/Portfolio-2.git"
+  },
+  "author": "michael caridad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mich809/Portfolio-2/issues"
+  },
+  "homepage": "https://github.com/mich809/Portfolio-2#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
