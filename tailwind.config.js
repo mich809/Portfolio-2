@@ -6,10 +6,11 @@ module.exports = {
       colors: {
         'dark-brown': '#7A4B4B',
         'light-brown' : '#BF722E',
-        'medium-brown' : '#916060'
+        'medium-brown' : '#916060',
+        'box': '#f2eae6'
       },
       fontFamily: {
-         'code' : ['Roboto-Mono','sans-serif'],
+         'code' : ['Fira Code','sans-serif'],
          'inter': ['Inter', 'sans-serif']
       }
     },

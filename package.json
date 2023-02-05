@@ -4,7 +4,7 @@
   "description": "portfolio site",
   "main": "index.js",
   "scripts": {
-    "build" : "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
     "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/mich809/Portfolio-2#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "remixicon": "^2.5.0"
   }
 }
