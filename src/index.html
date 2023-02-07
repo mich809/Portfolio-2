@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,10 +7,17 @@
     <title>Michael Caridad | Home</title>
     <link rel="stylesheet" href="../dist/output.css" />
     <link href="https://css.gg/arrow-top-right-r.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="h-full bg-[#EEE3DDE6]">
-    <header class="">
-      <div class="flex py-3 items-center">
+    <header class="sticky top-0 z-10">
+      <div class="flex items-center py-3">
         <a href="" class="flex-grow ml-10"
           ><svg
             width="40"
@@ -30,17 +37,17 @@
           class="items-center flex justify-between gap-x-7 mr-10 text-[0.9rem] font-code tracking-wide font-semibold"
         >
           <li>
-            <a href="" class="text-[#7A4B4B] hover:text-[#BF722E]"
+            <a href="#about" class="text-[#7A4B4B] hover:text-[#BF722E]"
               ><span class="mr-2 text-[#BF722E]">01.</span>About</a
             >
           </li>
           <li>
-            <a href="" class="text-[#7A4B4B] hover:text-[#BF722E]"
+            <a href="#work" class="text-[#7A4B4B] hover:text-[#BF722E]"
               ><span class="mr-2 text-[#BF722E]">02.</span>Work</a
             >
           </li>
           <li>
-            <a href="" class="text-dark-brown hover:text-light-brown"
+            <a href="#contact" class="text-dark-brown hover:text-light-brown"
               ><span class="mr-2 text-light-brown">03.</span>Contact</a
             >
           </li>
@@ -49,18 +56,18 @@
     </header>
     <section class="custom-container relative h-[100vh]">
       <div
-        class="flex flex-col gap-y-2 items-start md:top-1/3 md:mt-0 md:absolute md:-translate-y-1/2"
+        class="flex flex-col items-start gap-y-2 mt-60 md:mt-0 md:top-1/3 md:absolute md:-translate-y-1/2"
       >
-        <h6 class="mb-2 text-light-brown text-base font-code font-medium">
+        <h6 class="mb-2 text-base font-medium text-light-brown font-code">
           Hi, my name is
         </h6>
-        <h1 class="text-5xl font-inter font-semibold text-dark-brown">
+        <h1 class="text-5xl font-semibold font-inter text-dark-brown">
           Michael Caridad
         </h1>
-        <h2 class="text-medium-brown text-5xl font-inter font-semibold">
+        <h2 class="text-5xl font-semibold text-medium-brown font-inter">
           I build things for the web.
         </h2>
-        <p class="text-medium-brown text-base font-inter font-medium max-w-lg">
+        <p class="max-w-lg text-base font-medium text-medium-brown font-inter">
           Experienced full-stack developer specializing in backend development.
           Delivered successful projects with a focus on quality and efficiency.
           Committed to staying current with industry advancements.
@@ -72,20 +79,20 @@
         </button>
       </div>
     </section>
-    <section class="custom-container py-24 md:max-w-5xl">
+    <section class="py-24 custom-container md:max-w-5xl" id="about">
       <div class="flex items-center gap-x-3">
-        <span class="font-code text-light-brown font-medium md:text-xl"
+        <span class="font-medium font-code text-light-brown md:text-xl"
           >01.</span
         >
-        <h3 class="font-semibold md:text-2xl text-xl text-dark-brown">
+        <h3 class="text-xl font-semibold md:text-2xl text-dark-brown">
           About Me
         </h3>
         <span
           class="flex-grow md:flex-initial md:w-56 lg:w-80 h-[0.04px]"
         ></span>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 mt-1">
-        <div class="gap-y-6 flex flex-col font-inter">
+      <div class="grid grid-cols-1 mt-1 md:grid-cols-2">
+        <div class="flex flex-col gap-y-6 font-inter">
           <p>
             Hello! My name is Michael and I enjoy creating things that live on
             the internet. My interest in web development started all the way
@@ -113,7 +120,7 @@
                   clip-rule="evenodd"
                 />
               </svg>
-              <span class="font-code text-base font-thin ml-1">Java</span>
+              <span class="ml-1 text-base font-thin font-code">Java</span>
             </div>
             <div class="flex items-center">
               <svg
@@ -128,7 +135,7 @@
                   clip-rule="evenodd"
                 />
               </svg>
-              <span class="font-code text-base font-thin ml-1">Python</span>
+              <span class="ml-1 text-base font-thin font-code">Python</span>
             </div>
             <div class="flex items-center">
               <svg
@@ -143,7 +150,7 @@
                   clip-rule="evenodd"
                 />
               </svg>
-              <span class="font-code text-base font-thin ml-1">Javascript</span>
+              <span class="ml-1 text-base font-thin font-code">Javascript</span>
             </div>
             <div class="flex items-center">
               <svg
@@ -158,7 +165,7 @@
                   clip-rule="evenodd"
                 />
               </svg>
-              <span class="font-code text-base font-thin ml-1">Typescript</span>
+              <span class="ml-1 text-base font-thin font-code">Typescript</span>
             </div>
             <div class="flex items-center">
               <svg
@@ -173,7 +180,7 @@
                   clip-rule="evenodd"
                 />
               </svg>
-              <span class="font-code text-base font-thin ml-1">SQL</span>
+              <span class="ml-1 text-base font-thin font-code">SQL</span>
             </div>
             <div class="flex items-center">
               <svg
@@ -188,31 +195,31 @@
                   clip-rule="evenodd"
                 />
               </svg>
-              <span class="font-code text-base font-thin ml-1"
+              <span class="ml-1 text-base font-thin font-code"
                 >Spring Framework</span
               >
             </div>
           </div>
         </div>
         <div
-          class="flex items-center justify-center md:items-start md:justify-start mt-20 md:mt-0 rounded-md"
+          class="flex items-center justify-center mt-20 rounded-md md:items-start md:justify-start md:mt-0"
         >
-          <div class="relative w-64 h-64 md:h-40 md:w-80 rounded-md ml-20">
+          <div class="relative w-64 h-64 ml-20 rounded-md md:h-40 md:w-80">
             <img
               src="/assets/img/me.jpg"
               alt=""
-              class="rounded-md h-80 w-96 object-fill"
+              class="object-fill rounded-md h-80 w-96"
             />
           </div>
         </div>
       </div>
     </section>
-    <section class="custom-container py-24" id="work">
+    <section class="py-24 custom-container" id="work">
       <div class="flex items-center gap-x-3">
-        <span class="font-code text-light-brown font-medium md:text-xl"
+        <span class="font-medium font-code text-light-brown md:text-xl"
           >02.</span
         >
-        <h3 class="font-semibold md:text-2xl text-xl text-dark-brown">
+        <h3 class="text-xl font-semibold md:text-2xl text-dark-brown">
           Some things i've worked on
         </h3>
         <span
@@ -220,15 +227,15 @@
         ></span>
       </div>
       <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-4 gap-y-4 mt-8"
+        class="grid grid-cols-1 mt-8 md:grid-cols-2 lg:grid-cols-3 md:gap-x-4 gap-y-4"
       >
-        <div class="bg-box p-7 rounded-md shadow-sm flex flex-col opacity-80">
+        <div class="flex flex-col rounded-md shadow-sm bg-box p-7 opacity-80">
           <div class="">
-            <div class="mt-3 flex flex-col gap-y-5 flex-1">
-              <h2 class="font-semibold text-lg text-dark-brown">
+            <div class="flex flex-col flex-1 mt-3 gap-y-5">
+              <h2 class="text-lg font-semibold text-dark-brown">
                 Title
                 <span
-                  class="block text-sm font-medium tracking-wider uppercase opacity-50 mt-1"
+                  class="block mt-1 text-sm font-medium tracking-wider uppercase opacity-50"
                   >Fullstack app</span
                 >
               </h2>
@@ -239,7 +246,7 @@
               </p>
 
               <ul
-                class="flex gap-x-4 gap-y-1 flex-wrap font-code text-xs opacity-80 mt-auto"
+                class="flex flex-wrap mt-auto text-xs gap-x-4 gap-y-1 font-code opacity-80"
               >
                 <li>Spring boot</li>
                 <li>Spring boot</li>
@@ -250,12 +257,12 @@
               </ul>
               <div class="flex gap-x-4">
                 <button
-                  class="hover:bg-light-brown hover:bg-opacity-10 text-light-brown font-code text-sm py-2 px-4 w-1/4 border rounded-lg border-light-brown"
+                  class="w-1/4 px-4 py-2 text-sm border rounded-lg hover:bg-light-brown hover:bg-opacity-10 text-light-brown font-code border-light-brown"
                 >
                   Link
                 </button>
                 <button
-                  class="hover:bg-light-brown hover:bg-opacity-10 text-light-brown font-code text-sm py-2 px-4 w-1/4 border rounded-lg border-light-brown"
+                  class="w-1/4 px-4 py-2 text-sm border rounded-lg hover:bg-light-brown hover:bg-opacity-10 text-light-brown font-code border-light-brown"
                 >
                   Code
                 </button>
@@ -266,12 +273,12 @@
       </div>
     </section>
 
-    <section class="my-44 custom-container text-center" id="contact">
-      <div class="flex flex-col gap-y-4 items-center">
-        <span class="font-code font-light text-light-brown"
+    <section class="text-center my-44 custom-container" id="contact">
+      <div class="flex flex-col items-center gap-y-4">
+        <span class="font-light font-code text-light-brown"
           >03. What's Next?</span
         >
-        <h3 class="text-4xl md:text-5xl font-semibold text-dark-brown">
+        <h3 class="text-4xl font-semibold md:text-5xl text-dark-brown">
           Get In Touch
         </h3>
         <p class="md:w-[70%] lg:w-1/2 mt-2 text-medium-brown">
@@ -286,5 +293,19 @@
         >
       </div>
     </section>
+    <div style="opacity: 1">
+      <div
+        class="fixed bottom-0 flex-col items-center hidden pl-5 lg:flex left-10"
+      >
+        <div class="flex flex-col mb-4 gap-y-2 text-[21px]">
+          <a href="https://github.com/mich809" target="_blank"
+            ><i class="fa-brands fa-github text-dark-brown"></i> </a
+          ><a href="https://www.linkedin.com/in/michaelcaridad" target="_blank"
+            ><i class="fa-brands fa-linkedin text-dark-brown"></i
+          ></a>
+        </div>
+        <div class="h-28 w-[0.5px] bg-dark-brown"></div>
+      </div>
+    </div>
   </body>
 </html>
