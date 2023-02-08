@@ -12,8 +12,10 @@ module.exports = {
       fontFamily: {
          'code' : ['Fira Code','sans-serif'],
          'inter': ['Inter', 'sans-serif']
+      },fontSize: {
+        dynamic: "clamp(40px, 4vw, 80px)",
       }
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/line-clamp')],
 }
