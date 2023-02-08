@@ -4,8 +4,8 @@
   "description": "portfolio site",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
-    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./output.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./output.css --watch"
   },
   "repository": {
     "type": "git",
